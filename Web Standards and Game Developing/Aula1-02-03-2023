@@ -1,0 +1,61 @@
+Codigo de programação geralmente utilizado para resolução de problemas, com o HTML é diferente, ja que é mais uma linguagem de criaçao de tags 
+para conteudo
+Tags: Marcações. 
+Exemplo: Título -> <h1>______________</h1>
+					Inicio				Final
+O HTML foi originalmente criado pela Cerne, mais especificamente Timothy John Berners-Lee, fisico que trabalhava na empresa, afim de criar um padrão
+para que haja uma certa rapidez nos resultados das pesquisas, mais pra frente foram adicionadas as TAGS.
+
+HTML não e uma linguagem de programação
+*Ctrl+,* abre as configurações de tamanho de fonte
+
+Instalar extensões:
+Live Server
+Auto Rename Tag 
+Path Intellisense
+CSS Peek
+Material Item Theme
+Bracket Pair Colorizer 2
+Atom One Dark Theme
+Dracula Official 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Montagem de estrutura
+Criação da pasta (AULA 0203) e colocando ela dentro do VS Code
+Criando um arquivo dentro do VSCode clicando duas vezes na em qualquer lugar do "EXPLORER" e criando a pagina "index.html"
+Dentro do arquivo, apenas digitando "!" e dando enter, o seguinte codigo aparece:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+A Tag escrita <html lang="en"> é onde começa a pagina criada, e o fim dela é o </html>
+Foi feita uma alteração no codigo onde trocamos o <html lang="en"> para <html lang="pt-br">
+
+<!DOCTYPE html> identifica o tipo de documento, que no caso é html
+
+<head> é o conteudo que sera o primeiro a ser lido durante o carregamento da pagina </head>
+
+<meta charset="UTF-8"> sempre tem que estar dentro do <head> e mostra qual cadeia os caracteres do documento estão
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> responsavel pelo design responsivo, onde ele analisa o espaço total
+e adapta o site para o tamanho, sendo possivel nota-la quando diminuimos a aba do navegador
+
+<title> é aquela que mostrará o títula da sua pagina
+
+<body> Onde ficara todo o conteudo da pagina </body>
+
+TAGS DE TITULO:
+<h1> para o titulo </h1> (A diferentes tipos desse codigo que vao de h1 ate h6, sendo o menor)
+<p> representa um texto, onde sera o conteudo da pagina (p de paragrafo)</p>
+
+*Ctrl+s* para remover a bolinha de alteração feita sem salvar
+Ir em File e ativar o "Autosave"
