@@ -1,0 +1,55 @@
+Primeira aula de Laboratorio de Programação
+
+Objetivo de hoje:
+-entender lógica de programação
+-algoritmos
+-raciocinio lógico
+
+Logica: analise das formas de leis e pensamentos, uma linguagem racional, dispensando a produçao pensamento e levando em consideração ao oranização
+e apresentação da idéia, utilizada principalmente na informática sendo essencial no processo de criação de um software
+
+Independente da linguagem de programação, um software devidamente especificado pode traduzi-lo em linhas de codigos
+
+Durante a especificação é possivel verificar um maior nivel de abstração, se o software esta correto ou não e se atenderá às especificações propostas 
+
+Algoritmo: sequencia de passos  que visam atingir um objetivo bem definido, representando um conjunto de regras para a solução de um problema, representando fielmente o raciocinio
+
+TIPOS DE ALGORITMO:
+-Descrição Narrativa: Utiliza de uma linguagem natural para especificar os passos para a realização da tarefa
+*passo a passo*
+-Pseudocódigo: Utiliza de uma linguagem estruturada, igual a um programa escrito por uma linguagem  de computador
+*Leia (b,h)
+-Fluxograma: Linguagem universal representada por simbolos onde cada um tem sua função
+*Quadrado com bordas redondas: Terminal, inicio e fim do fluxograma
+*Retangulo: Processamento, execução de operações
+*Retangulo cortado encima: Teclado, entrada de dados para as variaveis
+*criculo: conector, interligar partes do fluxograma
+*apontando para a esquerda: Vídeo, saída de informação por meio do monitor
+*Losangulo: decisão, onde sera feita a decisão a partir das informações
+
+Pratica de algoritmos:
+-Identificação do algoritmo
+*o nome do algoritmo
+-Declaração de Variavel
+*As variaveis utilizadas para solução devem ser declaradas
+-Corpo algoritmo
+*Usada para solução do problema, tendo nela, entrada de valores para as variáveis, operação de atribuição, lógicas e matemáticas, abertura e fechamento de arquivos, laços e fechamento de resultado
+
+-Computador
+*Entrada: Dados, informações
+*Processamento: Cálculos
+*Saída: Informação e Resulados
+
+-dado de entrada: informação recebida no inicio do processamento
+-dado de saída: resposta devolvida no final do processamento
+-Constante
+-Variavel
+
+Tipos basicos de dados:
+-Inteiro: Qualque informação númerica que pertença ao conjunto dos numeros inteiros
+-Real: Qualquer informação numerica que pertença ao conjunto dos numeros reais
+-Caractere: Conjunto de informações compostas por:
+*Alfanuméricos (0 a 9)
+*Alfabéticos (A a Z, a ... z)
+*Especiais (!@#$%¨¨&*)
+-Logico: informação que assumi apenas duas situações, Verdadeiro ou Falso
