@@ -1,0 +1,63 @@
+Aula 2 - Sistemas de Informação e Resultados Empresariais
+
+Objetivo:
+1. Exercício conceituais para a visualização do cálculo de regressão linear
+2. Rever a importância do desenvolvimento e emprego de equação
+3. Identificação de variável independente (X) e váriavel dependente (Y)
+4. Rever o volume de dados e informações presentes para a tomada de decisão
+5. Apresentar como o raciocíno estratégico está ligado ao tratamento de números
+-----------------------------------------------------------------------------------------
+Regressão
+Utiliza a equação para a PROGREÇÃO
+Não existe regressão sem progreção e vise-versa
+
+A empresa necessita de fazer uma progeção, o problema é o como e o porque fazer
+
+empresa --> Insumo(X) --> Resultado(Y)
+Insumo: local designado para todas as despesas afim de receber um lucro
+
+Perante aos dados, aquele responsavel deve identificar quem é o X e o Y da equação
+Na tabela temos os dado de:
+TEMPO HORAS
+CONTATOS = X ou V.I - onde a variavel trabalha sozinha afim de gerar um resultado (PRIMEIRO)
+CONTRATOS VENDIDOS = Y ou seja V.D - variavel que necessita de outra (X) para gerar o resultado desejado
+
+Dispersão -> R2 -> Erro!
+
+-Dentro do Excel ir em inserir
+-Ir na parte de grafico e selecionar a ultima opção (add scatter)
+-Botao direito no grafico e selecionar (Selecionar dados)
+-Clicar em adicionar
+-Em cada caixa deve-se fazer o seguinte passo:
+*Primeira: Colocar o nome do grafico
+*Segundo: Colocar o valor do grafico X (CONTATOS)
+*Terceiro: Colocar o valor de grafico Y (CONTRATOS VENDIDOS)
+-Dar um OK 
+-Apareceram algumas bolas indicando o percentual
+-Clicar com o botao direito em uma delas e "Adicionar Linha de Tendencia"
+-Depois, no painel ao lado, descer ate o final e marcar as 2 ultimas opções
+
+20 contratos
+300 ligaçoes
+
+0,1136x = 20 + 9,039
+29,039 = 0,1136x
+      256
+
+Nesse caso de adição de 20 contratos, devemos somar eles ao numero total de contratos ja feitos
+
+300: Ligações
+
+0,1136*(300) - 9,039 = 0
+34,08 - 9,039 = 25,04 = 25
+
+No caso não há adição de ligações, mas sim um outro numero, sendo necessario a multiplicação das 300 na equação
+
+1. Variável independente (X) envolve recurosos, insumos, tempo  e o que gera resultados. 
+2. Variável Independente (X) é aquela que vem primeiro.
+3. Variável independente (X) é o que as empresas precisam gerenciar.
+4. Variável dependente (Y) são os resultados obtidos.
+5. Variável dependente (Y) vem como consequência.
+6. Variável dependente (Y) produto do gerenciamento.
+
+Caso haja uma inversão de de X e Y, a equação muda mas o resultado e o mesmo, porem é inaceitavel no mercado
