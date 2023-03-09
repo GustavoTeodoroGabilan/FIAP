@@ -1,0 +1,91 @@
+Aula de Web develop 02
+
+Alt+Z = quebra de linha
+
+Objetivo: fazer um site de drone
+
+lorem: texto automatico muito utilizado na programação
+Clicamos com o botao direito e fomos na opção "Open with Live Server", abrindo a nossa futura pagina em uma aba do google
+Logo em seguida iremos adicionar uma Imagem de um drone, 
+-Escolhemos a imagem 
+-Clicar na imagem e depois na seta para baixo do lado do BAIXE GRATIS 
+-Selecionar imagem MEDIA
+*Usamos o pexels para obter as imagens*
+
+Por organização, criar uma pasta de "IMAGES" para alocar as imagens baixadas
+em seguida, dentro do codigo, digitamos "img" e o seguinte codigo aparece
+<img src="" alt="">
+para que seja possivel colocar uma imagem 
+Dentro do "src" devemos colocar o endereço da imagem, par isso deve-se escrever "." e em seguida "/", depois clicar em IMAGES e selecionar a foto desejada
+Apos dar um ENTER, a imagem é adicionada ao site
+Dentro do "alt" colocamos um texto que ira aparecer caso a imagem em si não carregue, possibilitando que sua aplicação seja mais acessivel para deficiente
+
+Depois de adicionar a imagem, descemos uma linha e utilizamos o <h2> como subtitulo para MODELOS DE DRONES e abaixo um <h3> escrito DRONE ABCD, colocamos na linha abaixo um <p> para adicionar uma descrição do drone
+utilizamos 50 palavras do lorem ipsum utilizando o comando "lorem50"
+
+colocamos uma observação escrita Lista Ordenada, porem ela não deve aparecer no site, logo usando o comando (CTRL + ;) e o seguinte aparece "<!-- Lista ordenada -->" tratando-se de um comentario para o codigo
+-Para o drone, devemos adicionar uma lista ordenada utilizando o codigo <ol>
+-Depois, dentro do <ol>, colocamos o <li> para colocar os itens da lista
+e o codigo fica da seguinte forma:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDrones</title>
+</head>
+<body>
+    
+    <h1>MyDrones</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatem molestiae ex iure placeat maiores id debitis laborum dolorem dolorum perspiciatis voluptatum consequuntur adipisci asperiores tempora cumque ipsa, assumenda optio?
+    </p>
+
+    <img src="./IMAGENS/pexels-josh-sorenson-1034812.jpg" alt="">
+
+    
+    <h2>Modelos de Drones</h2>
+
+    <h3>Drone ABCD</h3>
+    
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem accusantium commodi voluptatibus fugit, quae minus nobis impedit tempore iure, ratione neque ex ut odio est, culpa facere aperiam laborum assumenda eligendi vero quam? Provident repellat, blanditiis ullam autem, at expedita dolore dolorem molestias necessitatibus amet, quaerat commodi libero consequatur rerum.
+    </p>
+
+    <!-- Lista ordenada -->
+    <ol>
+        <li>Fabricante: Apple</li>
+        <li>Autonomia: 04 horas</li>
+        <li>Peso: 600g</li>
+        <li>Velocidade: 50 km/h</li>
+    </ol>
+
+</body>
+</html>
+
+Caso a gente troque o <ol> por <ul> ele vira uma lista não ordenada
+
+Logo apos adicionamos mais uma imagem com o msm comando
+<img src="" alt="">
+e em seguida colocamos uma observação utilizando o CTRL + ;, <!-- Link para um site externo -->
+Queremos colocar um link para um site externo
+-Adicionar um comando <p>
+-adicionar o comando <a></a>
+-depois dentri do <a> colocamos o href, ficando <a href=""></a>
+-escrever no meio do <a></a> "Comprar Agora", ficando <a href="">Comprar Agora</a>
+*OBS: ALT + Ceta para cima, realoca-ra a linha na qual esta selecionada*
+-Na frente do href deve-se copiar o link, ficando <a href="https://www.lojadji.com.br/">Comprar Agora</a>
+-Porem assim que o link e aberto, o nosso site fecha, então devemos colocar um atributo (Target="_blank") ficando 
+ <p>
+
+        <a href="https://www.lojadji.com.br/"
+        target="_blank">Comprar Agora</a>
+
+    </p>
+
+Target="_blank" faz com que, assim que clicar no link, o usuario crie uma nova aba no navegador, na qual ele será redirecionado
+
+Lição de casa: adicionar mais 2 drones, com mesmas informações
+
