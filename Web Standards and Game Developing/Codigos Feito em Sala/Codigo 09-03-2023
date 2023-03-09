@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDrones</title>
+</head>
+<body>
+    
+    <h1>MyDrones</h1>
 
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatem molestiae ex iure placeat maiores id debitis laborum dolorem dolorum perspiciatis voluptatum consequuntur adipisci asperiores tempora cumque ipsa, assumenda optio?
+    </p>
+
+    <img src="./IMAGENS/pexels-josh-sorenson-1034812.jpg" alt="imagem de um Drone">
+
+    
+    <h2>Modelos de Drones</h2>
+
+    <h3>Drone ABCD</h3>
+    
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem accusantium commodi voluptatibus fugit, quae minus nobis impedit tempore iure, ratione neque ex ut odio est, culpa facere aperiam laborum assumenda eligendi vero quam? Provident repellat, blanditiis ullam autem, at expedita dolore dolorem molestias necessitatibus amet, quaerat commodi libero consequatur rerum.
+    </p>
+
+    <h4>Especificações do produto:</h4>
+    <!-- Lista ordenada -->
+    <ul>
+        <li>Fabricante: Apple</li>
+        <li>Autonomia: 04 horas</li>
+        <li>Peso: 600g</li>
+        <li>Velocidade: 50 km/h</li>
+    </ul>
+
+    <!-- Imagem do Drone -->
+    <img src="./IMAGENS/pexels-the-lazy-artist-gallery-1506991.jpg" alt="Imagem do Segundo Drone na mão">
+    
+    <!-- Link para um site externo -->
+    <p>
+
+        <a href="https://www.lojadji.com.br/"
+        target="_blank">Comprar Agora</a>
+
+    </p>
+
+
+</body>
+</html>
