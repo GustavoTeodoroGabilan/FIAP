@@ -1,0 +1,65 @@
+Exercicios em sala
+0,21 = R
+1 = I
+Verdadeiro = L
+"0." = C
+1% = R
+"jose" = C
+0,35 = R
+-0,001 = R
++3257 = I
+"A" = C
+"-0.0" = C
+".F." = C
+"ABC" = C
+FALSO = L
+C = C
+"+3257" = C
+
+Variaveis
+valor = C
+_b248 = I
+nota*do*aluno = I
+a1b2c3 = I
+3 x 4 = I
+xyz = I
+km/h = I
+nome empresa = I
+Maria = I
+sala_215 = C
+ah! = I
+"nota" = I
+
+VAR:
+quilo = R
+preco = R 
+valorTotal = R
+legume = C
+
+ENTRADAS:
+Leia(legume)
+Leia(quilo)
+Leia(preco)
+
+PROC:
+valorTotal<-quilo*preco
+
+SAIDA:
+Exibir(valorTotal)
+	Exibir("valorTotal",valorTotal,"legume",legume)
+	
+TABELA VERDADE:
+A = 2 .e. B = 7
+a)A = 3 .e. B = 7 = FALSO
+b) A < 3 .ou. B <> 7 = VERDADE
+c) A <= 2 .e. b = 7 = VERDADE
+d).não. A = 2 .e. B = 7 = FALSO
+
+Precedencia dos operadores:
+A <- B+2>5 .ou. C<>4.e.D=0
+B <- 5
+C <- 3
+D <- 1
+
+A <- V .ou. V .e. f
+A = VERDADE
