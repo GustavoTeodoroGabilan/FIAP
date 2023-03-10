@@ -1,0 +1,59 @@
+Laboratorio de Programação Dia 02
+
+Constante: valor que nunca será modificado durante a execução de um algoritmo(variaveis somente leitura)
+Variaveis: Representam valores desconhecidos, que será necessario para a resolução do problema, armazenando os dados temporariamente
+*Pode ter seus valores alterados durante a execução*
+-Conteudo
+-Tipo
+-Nome
+Exemplo:
+var idadePessoa: inteiro
+var cotacaoDolar:real
+var 
+
+Convenção para nomes de variaveis
+1. Os nomes devem ser iniciados por um caractere alfabetico
+2. Os nomes podem possuir números, desde que seja utilizado logo apos a primeira palavra
+3. Alem de letras(A a Z, a a z), cifrão ($), o caractere sublinhado(_) e os numeros (0 a 9), não é aceito nenhum outro simbolo
+4. Nome de variaveis devem ser com a primeira letra minúscula, ja as compostas internas devem ser maiúsculas
+
+tipo dados -> Constante e variaveis -> nomes var/const
+
+VAR:
+quilo = R
+preco = R 
+valorTotal = R
+legume = C
+
+ENTRADAS:
+Leia(legume)
+Leia(quilo)
+Leia(preco)
+
+PROC:
+valorTotal<-quilo*preco
+
+SAIDA:
+Exibir(valorTotal)
+	Exibir("valorTotal",valorTotal,"legume",legume)
+
+<-: atribuição
+*: Multiplicação
+mod: resto, o que sobra da divisão
+Exemplo:
+resto <- 3 mod 2
+R + R = R
+I * R = R
+e: Obrigatoriedade, todos os requisitos devem ser alcançados (&&)*Sempre tem prioridade*
+Idade superior a 18 E sexo feminino
+Idade:19(V) Sexo: Feminino(V) Resultado:V
+Idade:18(F) Sexo: Masculino(F) Resultado:F
+Idade: 20(V) Sexo: Masculino(F) Resultado:F
+
+ou: caso atenda um dos requisitos
+Idade:19(V) Sexo: Feminino(F) Resultado:V
+Idade:18(V) Sexo: Masculino(V) Resultado:V
+Idade: 20(F) Sexo: Masculino(V) Resultado:V
+
+não: Nega a variavel à frente
+NÃO 5=5
